@@ -29,5 +29,5 @@ TwitCommit.py takes a URL to a GitHub repo as an argument to the ```-repourl``` 
 $ python TwitCommit.py -repourl https://www.github.com/user/repo
 ```
 
-The above will parse the latest commit message for the repo and post it to the twitter account via the API details configured within the ```config``` file.
+The above will parse the latest commit message for the repo, save it to ```message.txt```, and post it to the twitter account via the API details configured within the ```config``` file.
 
